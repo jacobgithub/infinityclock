@@ -1,0 +1,88 @@
+html,
+body {
+  color: #D1D0CE;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', Georgia, sans-serif;
+  background: transparent url("http://www.roflcopterdown.com/imgs/backgrounds/stardust.png");
+}
+
+.details {
+  margin-top: 0px
+}
+
+.huge {
+  margin-bottom: 0px
+}
+
+.big {
+  margin-bottom: 0px;
+  font-size: 18px
+}
+
+.medium {
+  margin-bottom: 0px;
+  font-size: 17px
+}
+
+.small {
+  margin-bottom: 0px;
+  font-size: 13px
+}
+
+.tiny {
+  font-size: 12px
+}
+
+.social {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+a {
+  color: #D1D0CE;
+}
+
+.state {
+  text-align: center;
+}
+
+.state {
+  display: none;
+}
+
+p {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+.btn {
+  background: transparent;
+  box-shadow: 0px 0px 0px 3px #D1D0CE;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.col-md-4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.infinity {
+  border-radius: 5%;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 2px #D1D0CE;
+}
+
+.pull-left {
+  float: left;
+}
