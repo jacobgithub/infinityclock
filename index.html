@@ -2,7 +2,7 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>Infinity World Clock</title>
+    <title>freeCodeCamp Zipline: Build a Pomodoro Clock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
@@ -18,43 +18,48 @@
 
   <body>
 
-    <audio id="audio" src="http://soundbible.com/grab.php?id=1746&type=mp3" preload="auto"></audio>
+    <audio id="audio" src="http://soundbible.com/grab.php?id=1746&type=mp3" preload="auto">
+
+</audio>
 
 <div class="container">
 
   <div class="col-md-12 timers">
 
     <h3>The Infinity Work Clock...</h3>
+<!-- Increase/decrease break session buttons. -->
+    <div class="col-md-4 col-xs-12 breakTime">
 
-    <div class="col-md-4 breakTime">
-
-      <button class="btn" id="upFun">More Fun</button>
-      <p id="fun">5</p>
-      <button class="btn" id="downFun">Less Fun</button>
+      
+      <button class="btn col-xs-4" id="downFun">-</button>
+      <p class="col-xs-4" id="fun">5</p>
+      <button class="btn col-xs-4" id="upFun">+</button>
 
     </div>
+    
 
-    <div class="col-md-4 infinity">
-
+    <div class="col-md-4 col-xs-12 infinity">
+<!-- Main timer. -->
       <p class="state">It only seems like forever!</p>
       <p class="quote">Infinity and beyond!
         </>
         <p class="time"></p>
 
     </div>
-
-    <div class="col-md-4  infinityTime">
-
-      <button class="btn" id="upInfinity">More Work</button>
-      <p id="infinity">25</p>
-      <button class="btn" id="downInfinity">Less Work</button>
-
+<!-- Increase/decrease work time buttons. -->
+    <div class="col-md-4 col-xs-12  infinityTime">     
+      
+      <button class="btn col-xs-4" id="downInfinity">-</button>
+      <p class="col-xs-4" id="infinity">25</p>
+      <button class="btn col-xs-4" id="upInfinity">+</button>
+      
     </div>
 
   </div>
 
 </div>
 
+<!-- Description/directions. -->
 <div class="col-md-12 details">
   <p class="huge">
     ...is a never ending work and break timer.
@@ -63,62 +68,10 @@
     Click the clock to start your never ending work journey.
   </p>
   <p class="medium">
-    Click again to pause and adjust the rate of your journey with the buttons.
+    Click again to pause adjust the rate of your journey with the buttons.
   </p>
-  <p class="small">
-    Your journey will be accompanied by random Protoss quotes!
-  </p>
-  <p class="tiny">
-    Follow my journey with the buttons below...
-  </P>
-</div>
-
-
-<div class='row social'>
-  <div class='col-md-4'>
-    <a href="mailto:jcobting@email.com" target='_blank'>
-      <button class='btn btn-block'><i class="fa fa-envelope"></i> E-mail
-      </button>
-    </a>
-  </div>
-  <div class='col-md-4'>
-    <a href="https://twitter.com/jacobting" target="_blank">
-      <button class='btn btn-block'><i class="fa fa-twitter"></i> Twitter
-      </button>
-    </a>
-    </a>
-  </div>
-
-  <div class='col-md-4'>
-    <a href="https://www.linkedin.com/in/jacobting" target="_blank">
-      <button class='btn btn-block'><i class="fa fa-linkedin"></i> LinkedIn
-      </button>
-    </a>
-  </div>
-
-  <div class='col-md-4'>
-    <a href="https://github.com/jacobgithub" target="_blank">
-      <button class='btn btn-block'><i class="fa fa-github"></i> GitHub
-      </button>
-    </a>
-  </div>
-
-  <div class='col-md-4'>
-    <a href="http://www.facebook.com/jacobcting" target="_blank">
-      <button class='btn btn-block'><i class="fa fa-facebook"></i> Facebook
-      </button>
-    </a>
-  </div>
-
-  <div class='col-md-4'>
-    <a href="http://www.freecodecamp.com/jacobgithub" target="_blank">
-      <button class='btn btn-block'><i class="fa fa-fire"></i> Free Code Camp
-      </button>
-    </a>
-  </div>
-</div>
-
-
+  
+<!-- Footer. -->
 <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
   <div class="container">
     <div class="navbar-text pull-left">

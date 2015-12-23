@@ -70,6 +70,12 @@ h3 {
   box-shadow: 0px 0px 0px 3px #D1D0CE;
   margin-top: 5px;
   margin-bottom: 5px;
+  padding: 0px 0px 0px 0px;
+  font-size: 24px
+}
+
+.btn:hover {
+  color: yellow;
 }
 
 .col-md-4 {
@@ -81,8 +87,4 @@ h3 {
   border-radius: 5%;
   cursor: pointer;
   box-shadow: 0px 0px 0px 2px #D1D0CE;
-}
-
-.pull-left {
-  float: left;
 }
