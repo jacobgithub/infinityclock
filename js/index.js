@@ -12,13 +12,11 @@ The right buttons/number represent the time for breaks, the buttons can increase
 
 // Quotes
 var quotes = [];
-quotes.push('My life for Auir!');
-quotes.push('En Taro Tassadar!');
-quotes.push('I fear no enemy!');
-quotes.push('For the Khala is my strength!');
-quotes.push('I fear not death.');
-quotes.push('I hunger for battle...');
-quotes.push('For our strength is eternal.');
+quotes.push('breathe');
+quotes.push('listen');
+quotes.push('relax');
+quotes.push('stretch');
+quotes.push('pause');
 
 $(document).ready(function() {
   // Variables for the buttons that increase and decrease timers.

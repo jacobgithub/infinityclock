@@ -1,44 +1,20 @@
 html,
 body {
   color: #D1D0CE;
+  background-color: #101010;
   text-align: center;
   margin: 0 auto;
   font-family: 'Roboto Condensed', Georgia, sans-serif;
-  background: transparent url("http://www.roflcopterdown.com/imgs/backgrounds/stardust.png");
+}
+
+.btn {
+  border-radius: 0px
+}
+
 }
 
 .details {
   margin-top: 0px
-}
-
-.huge {
-  margin-bottom: 0px
-}
-
-.big {
-  margin-bottom: 0px;
-  font-size: 19px
-}
-
-.medium {
-  margin-bottom: 0px;
-  font-size: 14px
-}
-
-.small {
-  margin-bottom: 0px;
-  font-size: 13px
-}
-
-.tiny {
-  font-size: 12px
-}
-
-.social {
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 150px;
 }
 
 a {
@@ -65,9 +41,12 @@ h3 {
   font-size: 45px;
 }
 
+
+
 .btn {
-  background: transparent;
-  box-shadow: 0px 0px 0px 3px #D1D0CE;
+  color: #101010;
+  background: #D1D0CE;
+  box-shadow: 10px 0px 0px 2px #101010
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 0px 0px 0px 0px;
@@ -75,7 +54,7 @@ h3 {
 }
 
 .btn:hover {
-  color: yellow;
+  box-shadow: 0px 0px 0px 2px #D1D0CE
 }
 
 .col-md-4 {
@@ -84,7 +63,16 @@ h3 {
 }
 
 .infinity {
-  border-radius: 5%;
   cursor: pointer;
-  box-shadow: 0px 0px 0px 2px #D1D0CE;
+  color: #101010;
+  background: #D1D0CE;
+  box-shadow: 10px 0px 0px 2px #101010
+}
+
+.infinity:hover {
+  box-shadow: 0px 0px 0px 2px #D1D0CE
+}
+
+.spacer {
+  margin-top: 30%
 }
