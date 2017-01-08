@@ -5,6 +5,10 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: 'Roboto Condensed', Georgia, sans-serif;
+<<<<<<< HEAD
+  background: transparent url("http://www.jacobting.net/imgs/backgrounds/stardust.png");
+=======
+>>>>>>> refs/remotes/origin/master
 }
 
 .btn {
