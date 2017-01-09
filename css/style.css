@@ -4,17 +4,11 @@ body {
   background-color: #101010;
   text-align: center;
   margin: 0 auto;
-  font-family: 'Roboto Condensed', Georgia, sans-serif;
-<<<<<<< HEAD
-  background: transparent url("http://www.jacobting.net/imgs/backgrounds/stardust.png");
-=======
->>>>>>> refs/remotes/origin/master
+  font-family: 'Roboto Condensed', Georgia, sans-serif
 }
 
 .btn {
   border-radius: 0px
-}
-
 }
 
 .details {
@@ -22,27 +16,27 @@ body {
 }
 
 a {
-  color: #D1D0CE;
+  color: #D1D0CE
 }
 
 .state {
-  text-align: center;
+  text-align: center
 }
 
 .state {
-  display: none;
+  display: none
 }
 
 p {
-  font-size: 30px;
+  font-size: 30px
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 50px
 }
 
 h3 {
-  font-size: 45px;
+  font-size: 45px
 }
 
 
@@ -50,15 +44,13 @@ h3 {
 .btn {
   color: #101010;
   background: #D1D0CE;
-  box-shadow: 10px 0px 0px 2px #101010
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 2px #101010;
   font-size: 24px
 }
 
 .btn:hover {
-  box-shadow: 0px 0px 0px 2px #D1D0CE
+  color: #D1D0CE;
+  background-color: #101000;
 }
 
 .col-md-4 {
@@ -70,13 +62,17 @@ h3 {
   cursor: pointer;
   color: #101010;
   background: #D1D0CE;
-  box-shadow: 10px 0px 0px 2px #101010
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 0px 0px 0px 2px #101010
 }
 
-.infinity:hover {
-  box-shadow: 0px 0px 0px 2px #D1D0CE
+.mainTime {
+  margin: 1%
 }
 
-.spacer {
-  margin-top: 30%
+.mainTime:hover {
+  color: #D1D0CE;
+  background-color: #101000;
 }
+
