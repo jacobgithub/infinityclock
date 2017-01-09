@@ -12,11 +12,12 @@ The right buttons/number represent the time for breaks, the buttons can increase
 
 // Quotes
 var quotes = [];
-quotes.push('breathe');
-quotes.push('listen');
-quotes.push('relax');
-quotes.push('stretch');
+quotes.push('ለጥቂት ጊዜ አረፈ');
+quotes.push('пауза');
 quotes.push('pause');
+quotes.push('وقفة');
+quotes.push('暫停');
+quotes.push('一時停止する');
 
 $(document).ready(function() {
   // Variables for the buttons that increase and decrease timers.
