@@ -1,7 +1,8 @@
 html,
-body {
-  color: #D1D0CE;
-  background-color: #101010;
+body
+{
+  color: #AFEEEE;
+  background-color: #FFC0CB;
   text-align: center;
   margin: 0 auto;
   font-family: 'Roboto Condensed', Georgia, sans-serif
@@ -16,7 +17,7 @@ body {
 }
 
 a {
-  color: #D1D0CE
+  color: #AFEEEE;
 }
 
 .state {
@@ -41,15 +42,15 @@ h3 {
 
 
 
-.btn {
-  color: #101010;
-  background: #D1D0CE;
+.btn:hover {
+  background-color: #FFC0CB;
   font-size: 24px
 }
 
-.btn:hover {
-  color: #D1D0CE;
-  background-color: #101000;
+.btn {
+  color: #101010;
+  background-color: #AFEEEE;
+  border-radius: 15px 15px 15px 15px
 }
 
 .col-md-4 {
@@ -60,10 +61,11 @@ h3 {
 .infinity {
   cursor: pointer;
   color: #101010;
-  background: #D1D0CE;
+  background-color: #AFEEEE;
   padding: 1%;
   margin: 1%;
-  box-shadow: 0px 0px 0px 2px #101010
+  box-shadow: 0px 0px 0px 2px #101010;  
+  border-radius: 15px 15px 15px 15px
 }
 
 .infinity-btn {
@@ -72,7 +74,7 @@ h3 {
   background: #D1D0CE;
   padding: 1%;
   margin: 1%;
-  box-shadow: 0px 0px 0px 2px #101010
+  box-shadow: 0px 0px 0px 2px #101010;
 }
 
 .mainTime {
@@ -80,8 +82,9 @@ h3 {
 }
 
 .mainTime:hover {
-  color: #D1D0CE;
-  background-color: #101000;
+  color: #101010;
+  background-color: #FFC0CB;
+  border-radius: 15px 15px 15px 15px
 }
 
 .spacer {
