@@ -1,6 +1,6 @@
 A Pen created at CodePen.io. You can find this one at http://codepen.io/jacobgithub/pen/PPdpOm.
 
-
+Available on Android: https://play.google.com/store/apps/details?id=com.ting_timer.jacob&hl=en_US
 
 This was a project made for freeCodeCamp.com.
 
